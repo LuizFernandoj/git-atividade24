@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>input e form</title>
+    <link
+      rel="shortcut icon"
+      href="data:image/png;base64,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"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <form>
+      <div class="Nome">
+        <label for="nome">Nome</label>
+        <input
+          id="nome"
+          type="text"
+          placeholder="Digite seu Nome ..."
+          maxlength="30"
+          required="true"
+        />
+      </div>
+      <div class="Email">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="text"
+          placeholder="Digite seu Email ..."
+          maxlength="30"
+          required="true"
+        />
+      </div>
+      <div class="Descrição">
+        <label for="descrição"
+          >descrever o que o motivou a participar do evento</label
+        >
+        <br />
+        <textarea
+          name="descrição"
+          id="descrição"
+          cols="30"
+          rows="10"
+          placeholder="Digite sua mensagem aqui..."
+        ></textarea>
+      </div>
+      <label for="modulos">selecione seu módulo no curso da Kenzie.</label>
+      <br />
+      <select id="modulos" name="modulo" required="true">
+        <option value="">selecione seu módulo</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascrip">JavaScrip</option>
+      </select>
+      <div class="senha">
+        <label for="Senha">Senha</label> <br />
+        <input
+          id="Senha"
+          type="password"
+          placeholder="Digite sua Senha ..."
+          maxlength="10"
+          required="true"
+        />
+      </div>
+      <div>
+        <label for="Confirmar senha">Confirmar senha</label> <br />
+        <input
+          id="Confirmar senha"
+          type="password"
+          placeholder="Digite sua Senha ..."
+          maxlength="10"
+          required="true"
+        />
+      </div>
+      <p>Gostari receber novidades em seu e-mail</p>
+      <label for="sim">Sim</label>
+      <input id="sim" type="radio" name="inputexmplo" />
+      <label for="nao">Não</label>
+      <input id="nao" type="radio" name="inputexmplo" />
+
+      <div class="button">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>
